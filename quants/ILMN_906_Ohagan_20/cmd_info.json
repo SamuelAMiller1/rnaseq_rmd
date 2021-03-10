@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.4.0",
+    "index": "./genome/gencode_v37_index",
+    "libType": "A",
+    "mates1": "sequences/ILMN_906_Ohagan_20/COPOS24R2_S38_R1_001.fastq.gz",
+    "mates2": "sequences/ILMN_906_Ohagan_20/COPOS24R2_S38_R2_001.fastq.gz",
+    "output": "quants/ILMN_906_Ohagan_20",
+    "validateMappings": [],
+    "seqBias": [],
+    "auxDir": "aux_info"
+}

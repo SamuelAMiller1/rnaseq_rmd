@@ -1,0 +1,22 @@
+{
+    "read_files": "[ sequences/ILMN_906_Ohagan_1/DMNEG12R1_S19_R1_001.fastq.gz, sequences/ILMN_906_Ohagan_1/DMNEG12R1_S19_R2_001.fastq.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 55861387,
+    "num_assigned_fragments": 55861387,
+    "num_frags_with_concordant_consistent_mappings": 51059246,
+    "num_frags_with_inconsistent_or_orphan_mappings": 6125591,
+    "strand_mapping_bias": 0.49836587872840895,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 25446186,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 25613060,
+    "SF": 4404846,
+    "SR": 1720745,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

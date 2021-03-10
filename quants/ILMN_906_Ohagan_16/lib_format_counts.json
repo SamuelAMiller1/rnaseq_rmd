@@ -1,0 +1,22 @@
+{
+    "read_files": "[ sequences/ILMN_906_Ohagan_16/COPOS24R1_S34_R1_001.fastq.gz, sequences/ILMN_906_Ohagan_16/COPOS24R1_S34_R2_001.fastq.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 41117780,
+    "num_assigned_fragments": 41117780,
+    "num_frags_with_concordant_consistent_mappings": 38293961,
+    "num_frags_with_inconsistent_or_orphan_mappings": 3779550,
+    "strand_mapping_bias": 0.49896240819799239,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 19107247,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 19186714,
+    "SF": 2590007,
+    "SR": 1189543,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
