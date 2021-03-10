@@ -98,7 +98,7 @@ vst <- varianceStabilizingTransformation(dds)
 To visualize counts prior to normalization
 
 ```{r}
-boxplot(counts(deseq_dataset, normalized=TRUE))
+boxplot(counts(dds, normalized=TRUE))
 ```
 
 To visualize normalized counts
@@ -152,7 +152,7 @@ dds <- estimateSizeFactors(dds)
 ```
 
 To view factors, normalizationFactors(deseq_dataset)
-View normalized counts, `counts(deseq_dataset, normalized=TRUE)[1:6, 1:3]`
+View normalized counts, `counts(dds, normalized=TRUE)[1:6, 1:3]`
 View unnormalized counts, `count_data$counts[1:6, 1:3]`
 
 2) estimate dispersions
