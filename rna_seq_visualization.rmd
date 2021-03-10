@@ -98,7 +98,7 @@ vst <- varianceStabilizingTransformation(dds)
 To visualize counts prior to normalization
 
 ```{r}
-boxplot(counts(dds, normalized=TRUE))
+boxplot(counts(dds, normalized=FALSE))
 ```
 
 To visualize normalized counts
