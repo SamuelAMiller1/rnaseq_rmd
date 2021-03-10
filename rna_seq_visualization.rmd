@@ -1,8 +1,12 @@
 ---
-title:"RNA-seq Visualization"
-author:"Sam Miller"
-format:html_document
+title: "RNA-seq Visualization"
+author: "Sam Miller"
+format: html_document
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
 
 This is an R markdown document detailing the analysis of RNAseq data for Miller et al., 2021
 
