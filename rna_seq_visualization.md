@@ -86,12 +86,12 @@ dds <- DESeqDataSetFromTximport(txi = count_data,
 
 ## PCA
 
-PCA is a parametric technique - assumes normality log transformed
+PCA is a parametric technique that assumes normality. Log transformed
 RNA-seq data is approximately normally distributed, so PCA is compatible
-with log transformed counts 0’s cause issues with log transormation and
-RNAseq data is heterostochastic (i.e. variance is unequal accross data)
+with log transformed counts. 0’s cause issues with log transormation, and
+RNAseq data is heterostochastic (i.e. variance is unequal accross data), so
 Variance stabilizaing transformation and regularized log transformation
-can both be used to address this
+can both be used to address this.
 
 ``` r
 vst <- varianceStabilizingTransformation(dds)
